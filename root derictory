@@ -1,0 +1,19 @@
+/reynold-negosai              ← ✅ Your project root
+├── public/                   ← Assets accessible by browser (icons, favicon)
+│   └── favicon.ico
+├── src/                      ← All React components & logic
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── components/
+│       ├── InvoiceGenerator.jsx
+│       ├── CaptionWriter.jsx
+│       ├── AutoReplyBot.jsx
+│       └── IdeaGenerator.jsx
+├── .gitignore                ← ✅ Files Git should ignore (e.g. node_modules)
+├── index.html                ← Root HTML for Vite/React
+├── package.json              ← ✅ NPM config: dependencies, scripts, name
+├── postcss.config.js         ← Tailwind needs this
+├── tailwind.config.js        ← Tailwind settings
+├── README.md                 ← Info about your project (important on GitHub)
+├── vite.config.js            ← Vite settings
+└── node_modules/             ← Created by `npm install` (auto-generated)
